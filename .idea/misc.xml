@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Paul/AndroidStudioProjects/NavDemoPic_XML/app/src/main/res/drawable/rounded_button.xml" value="0.25" />
+        <entry key="..\:/Users/Paul/AndroidStudioProjects/NavDemoPic_XML/app/src/main/res/drawable/textview_border.xml" value="0.25" />
         <entry key="..\:/Users/Paul/AndroidStudioProjects/NavDemoPic_XML/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
