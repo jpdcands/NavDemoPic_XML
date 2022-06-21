@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.MainScreen"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/to_upperBody"
+            app:destination="@id/upperBody" />
+        <action
+            android:id="@+id/action_mainScreen_self"
+            app:destination="@id/mainScreen" />
+        <action
+            android:id="@+id/to_lowerBody"
+            app:destination="@id/lowerBody" />
+        <action
+            android:id="@+id/to_abs"
+            app:destination="@id/abs" />
+        <action
+            android:id="@+id/to_cardio"
+            app:destination="@id/cardio" />
+        <action
+            android:id="@+id/to_balance"
+            app:destination="@id/balance" />
+        <action
+            android:id="@+id/to_other"
+            app:destination="@id/other" />
+    </fragment>
+    <fragment
+        android:id="@+id/upperBody"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.UpperBody"
+        android:label="fragment_upper_body"
+        tools:layout="@layout/fragment_upper_body" />
+    <fragment
+        android:id="@+id/lowerBody"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.LowerBody"
+        android:label="fragment_lower_body"
+        tools:layout="@layout/fragment_lower_body" />
+    <fragment
+        android:id="@+id/abs"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.Abs"
+        android:label="fragment_abs"
+        tools:layout="@layout/fragment_abs" />
+    <fragment
+        android:id="@+id/cardio"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.Cardio"
+        android:label="fragment_cardio"
+        tools:layout="@layout/fragment_cardio" />
+    <fragment
+        android:id="@+id/balance"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.Balance"
+        android:label="fragment_balance"
+        tools:layout="@layout/fragment_balance" />
+    <fragment
+        android:id="@+id/other"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.Other"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other" />
+</navigation>
