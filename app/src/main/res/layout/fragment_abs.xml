@@ -8,7 +8,7 @@
     tools:context=".Abs">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/abs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"

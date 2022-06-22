@@ -18,14 +18,41 @@ class MainScreen : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_main_screen, container, false)
         val upperBodyButton = view.findViewById<Button>(R.id.upperBody)
+        val lowerBodyButton = view.findViewById<Button>(R.id.lowerBody)
+        val absButton = view.findViewById<Button>(R.id.abs)
+        val cardioButton = view.findViewById<Button>(R.id.cardio)
+        val otherButton = view.findViewById<Button>(R.id.other)
+        val balanceButton = view.findViewById<Button>(R.id.balance)
+
 
         upperBodyButton.setOnClickListener {
             view.findNavController()
                 .navigate(R.id.to_upperBody)
-            }
-            return view
         }
+        lowerBodyButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.to_lowerBody)
+        }
+        absButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.to_abs)
+        }
+        cardioButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.to_cardio)
+        }
+        otherButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.to_other)
+        }
+        balanceButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.to_balance)
+        }
+
+        return view
     }
 
+}
 
 
