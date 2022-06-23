@@ -45,12 +45,12 @@
         android:id="@+id/upperBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/rounded_button"
-        android:text="@string/upperBody"
         android:paddingLeft="10sp"
         android:paddingRight="10sp"
+        android:text="@string/upperBody"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -58,7 +58,7 @@
         android:id="@+id/abs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/rounded_button"
         android:text="@string/abs"
@@ -104,10 +104,10 @@
         android:id="@+id/balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginBottom="32dp"
-        android:text="@string/balance"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/rounded_button"
+        android:text="@string/balance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
