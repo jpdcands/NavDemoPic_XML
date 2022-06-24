@@ -7,4 +7,11 @@
     <string name="cardio">Cardio</string>
     <string name="other">Other</string>
     <string name="balance">Balance</string>
+    <string-array name="exercise_machines">
+        <item>Techno Vertical Traction</item>
+        <item>Seated Dip</item>
+        <item>Mid Row</item>
+        <item>Hoist Chest Press</item>
+        <item>Bicep Curl</item>
+    </string-array>
 </resources>
