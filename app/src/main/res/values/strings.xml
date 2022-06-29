@@ -6,12 +6,10 @@
     <string name="lowerBody">Lower Body</string>
     <string name="cardio">Cardio</string>
     <string name="other">Other</string>
+    <string name="vertical_traction">Techno Vertical Traction</string>
+    <string name="seated_dip">Seated Dip</string>
+    <string name="mid_row">Mid Row</string>
+    <string name="chest_press">Hoist Chest Press</string>
+    <string name="bicep_curl">Bicep Curl</string>
     <string name="balance">Balance</string>
-    <string-array name="exercise_machines">
-        <item>Techno Vertical Traction</item>
-        <item>Seated Dip</item>
-        <item>Mid Row</item>
-        <item>Hoist Chest Press</item>
-        <item>Bicep Curl</item>
-    </string-array>
 </resources>

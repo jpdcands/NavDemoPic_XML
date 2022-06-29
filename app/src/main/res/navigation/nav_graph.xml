@@ -36,7 +36,11 @@
         android:id="@+id/upperBody"
         android:name="com.jpdoolittleenterprises.android.navdemopic_xml.UpperBody"
         android:label="fragment_upper_body"
-        tools:layout="@layout/fragment_upper_body" />
+        tools:layout="@layout/fragment_upper_body" >
+        <action
+            android:id="@+id/action_upperBody_to_technoVerticalTractionFragment"
+            app:destination="@id/technoVerticalTractionFragment" />
+    </fragment>
     <fragment
         android:id="@+id/lowerBody"
         android:name="com.jpdoolittleenterprises.android.navdemopic_xml.LowerBody"
@@ -62,4 +66,9 @@
         android:name="com.jpdoolittleenterprises.android.navdemopic_xml.Other"
         android:label="fragment_other"
         tools:layout="@layout/fragment_other" />
+    <fragment
+        android:id="@+id/technoVerticalTractionFragment"
+        android:name="com.jpdoolittleenterprises.android.navdemopic_xml.TechnoVerticalTractionFragment"
+        android:label="fragment_techno_vertical_traction"
+        tools:layout="@layout/fragment_techno_vertical_traction" />
 </navigation>
