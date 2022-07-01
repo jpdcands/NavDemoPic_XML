@@ -27,6 +27,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_button"
         android:text="@string/vertical_traction"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintBottom_toTopOf="@+id/chest_press"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
