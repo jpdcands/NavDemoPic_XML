@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.findNavController
 
 class UpperBody : Fragment() {
 
@@ -12,7 +14,15 @@ class UpperBody : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_upper_body, container, false)
+
+        val view =  inflater.inflate(R.layout.fragment_upper_body, container, false)
+
+        val vertical_tractionButton = view.findViewById<Button>(R.id.vertical_traction)
+
+        vertical_tractionButton.setOnClickListener {
+            view.findNavController()
+                .navigate(R.id.action_upperBody_to_technoVerticalTractionFragment)
+        }
+        return view
     }
 }
